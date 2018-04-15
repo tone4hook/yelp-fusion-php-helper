@@ -5,6 +5,7 @@ A simple PHP client for consuming Yelp Fusion’s Business Search and Business L
 ## Getting Started
 
 **Business Search Example:**
+
 $example_params = array(
 	'term' => 'ramen restaurant',
 	'location' => 'Brooklyn'
@@ -15,6 +16,7 @@ $yelp_obj = new Yelp($example_params, YELP_KEY);
 $response = $yelp_obj->get_business_search();
 
 **Business Lookup Example:**
+
 $example_params = array(
 	'id' => '_eDLqcUps_l-Uuj4lcJVYg'
 );
